@@ -24,7 +24,7 @@ import java.util.Properties;
 
 public class ListAllUsers {
 
-    private int id;
+    private long id;
     private String errorMessage;
     private List<User> users;
 
@@ -44,11 +44,11 @@ public class ListAllUsers {
         this.errorMessage = errorMessage;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 

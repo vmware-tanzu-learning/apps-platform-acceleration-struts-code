@@ -23,7 +23,7 @@ import java.util.Properties;
 
 public class AddUser {
 
-    private int id;
+    private long id;
     private String firstName;
     private String lastName;
     private String errorMessage;
@@ -52,11 +52,11 @@ public class AddUser {
         this.errorMessage = errorMessage;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
